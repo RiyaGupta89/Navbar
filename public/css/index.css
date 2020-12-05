@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 50px;
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    padding: 16px 52px;
+    border-right: 1px solid rgb(216, 211, 211);
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+button{
+    float: right;
+    margin-top: 8px;
+    margin-right: 40px;
+    padding: 7px 14px;
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+button:hover{
+    background-color: white;
+    transform: rotateY(180deg);
+}
+
+ul li:hover{
+    background-color: rgb(216, 211, 211);
+}
+
+.active{
+    background-color: rgb(216, 211, 211);
+}
